@@ -6,10 +6,8 @@ int main() {
 double A, B, C;
 cout << "To find the third angle of a triangle when two angles are given." << endl;
 //Asking for input
-cout <<"Enter an angle: ";
-cin >> A;
-cout <<"Enter another angle: ";
-cin >> B;
+cout <<"Enter two angles: ";
+cin >> A >> B;
 //Calculating
 C = 180 - (A + B);
 //Displaying results
