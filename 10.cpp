@@ -22,6 +22,6 @@ Y = N*T;
 Z = pow(X,Y);
 C = P*Z;
 //Displaying results
-std::cout << std::setprecision(10) <<"Compound Interest, CI = " << C << "." << endl;
+std::cout << std::setprecision(100) <<"Compound Interest, CI = " << C << "." << endl;
 return 0;
 }
